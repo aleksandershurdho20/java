@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE XMI SYSTEM "C:\Users\Iri\AppData\Roaming\NetBeans\8.2\.uml\config\UML_2.0EMBT.dtd"> --><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.1A00F519-F47D-2224-5C18-78017D811051" mode="Implementation" defaultLanguage="Java" projVersion="6.1.4.837" name="UMLProject2"><UML:Element.ownedElement>
+<UML:Class xmi.id="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44" name="Kontabilisti" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051" clientDependency="DCE.A294CE37-EEA5-AB0F-8C54-4B063B28DF05" associationEnd="DCE.63535418-D31B-C584-B99C-EEBAB9B71806"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.807E2601-6BDC-15C9-5737-BA19FAA583CD" name="Kontabilisti" isConstructor="true" owner="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Realization xmi.id="DCE.AEA6822E-E25D-11F1-1E79-E78A1D889C5D" owner="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44" client="DCE.6B9A5DF0-88EA-E6EF-2EC6-C1E7938920B0" supplier="DCE.CB3CB893-7EE4-56A5-21CC-26ED02E78566"/>
+<UML:Operation xmi.id="DCE.6B9A5DF0-88EA-E6EF-2EC6-C1E7938920B0" name="getITax" isConstructor="false" clientDependency="DCE.AEA6822E-E25D-11F1-1E79-E78A1D889C5D" owner="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.5CCA468C-A42E-F0AC-D2A2-25C5BAF5C8C1" type="DCE.F4785212-D0D7-037C-DEA5-1B561D281995" direction="result" owner="DCE.6B9A5DF0-88EA-E6EF-2EC6-C1E7938920B0"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.45418811-01EE-C9ED-02A1-98547F353BF6"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Realization xmi.id="DCE.B8FBA9A9-3D46-370F-E5F7-AA20683C8016" owner="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44" client="DCE.CB3CB893-7EE4-56A5-21CC-26ED02E78566" supplier="DCE.D462A401-E1AE-6593-5189-4584C8D33A72"/>
+<UML:Operation xmi.id="DCE.D462A401-E1AE-6593-5189-4584C8D33A72" name="setITax" isConstructor="false" supplierDependency="DCE.B8FBA9A9-3D46-370F-E5F7-AA20683C8016" owner="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.F99D5E73-59A5-9BEB-0492-3E97A6580991" type="DCE.33EEC969-E01D-A917-C030-768C11D7573A" direction="result" owner="DCE.D462A401-E1AE-6593-5189-4584C8D33A72"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.9D37B046-CC2B-7A98-6EEC-93A22C15643C"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.283FBE80-E753-ACEB-E9A5-F1F7148B5082" type="DCE.F4785212-D0D7-037C-DEA5-1B561D281995" name="val" owner="DCE.D462A401-E1AE-6593-5189-4584C8D33A72"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.5FCC37F0-84D0-9E19-A9F8-984C7FA16956"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.0329C6B4-A464-184F-5ABA-8EA50F39D4C0" name="Unnamed" owner="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44" sourcefile="..\AleksanderRiprovimShtator\src\Kontabilisti.java"/></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.D3D87932-61A4-97A5-50C5-503008FD43CC" name="ProgressiveTax" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051" clientDependency="DCE.38D28AC6-A0DF-F5AE-6975-61C7BE9F125C"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.8498F26A-F761-0C59-F616-21A72767A645" name="ProgressiveTax" isConstructor="true" owner="DCE.D3D87932-61A4-97A5-50C5-503008FD43CC"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.AB3AA5E7-9C70-1199-EACA-ACAF49AD2F31" name="calculateTax" isQuery="false" isAbstract="false" redefinedElement="DCE.3C424869-1655-95AB-8885-E6339D7B168C" owner="DCE.D3D87932-61A4-97A5-50C5-503008FD43CC"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.5632987C-DA11-BFBA-9293-971047C1D545" type="DCE.793773E0-B25C-B355-8645-4A4FE2936099" direction="result" owner="DCE.AB3AA5E7-9C70-1199-EACA-ACAF49AD2F31"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.BACC4F9E-829D-3939-F268-7B36EB88F52B"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.28AAF7EE-5D41-EFEB-D008-1959850BB928" name="Unnamed" owner="DCE.D3D87932-61A4-97A5-50C5-503008FD43CC" sourcefile="..\AleksanderRiprovimShtator\src\ProgressiveTax.java"/></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.24D207D4-40F7-D762-694F-B71763C4DF79" name="StandartTax" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051" clientDependency="DCE.3A663F6A-3072-A79D-8F01-27480E929963"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.8C8AEC77-AF5E-0413-00D3-23BD967D6C36" name="StandartTax" isConstructor="true" owner="DCE.24D207D4-40F7-D762-694F-B71763C4DF79"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.26AC0D33-9A24-EACA-45D1-991A07DDB31B" name="calculateTax" isQuery="false" isAbstract="false" redefinedElement="DCE.3C424869-1655-95AB-8885-E6339D7B168C" owner="DCE.24D207D4-40F7-D762-694F-B71763C4DF79"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.10FBB525-B965-21F0-7221-2793697B16F8" type="DCE.793773E0-B25C-B355-8645-4A4FE2936099" direction="result" owner="DCE.26AC0D33-9A24-EACA-45D1-991A07DDB31B"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.F36EAD0D-B7C6-B007-CE13-0A1AF7C7CDEE"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.010D9579-C009-C595-33E6-8DDBA2DA8311" name="Unnamed" owner="DCE.24D207D4-40F7-D762-694F-B71763C4DF79" sourcefile="..\AleksanderRiprovimShtator\src\StandartTax.java"/></UML:Element.ownedElement></UML:Class>
+<UML:Interface xmi.id="DCE.F4785212-D0D7-037C-DEA5-1B561D281995" name="ITax" isAbstract="true" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051" appliedStereotype="__uri_.\UMLProject2.etup#//*[@xmi.id=&quot;DCE.B02A269B-8DCE-C897-127F-65B4929612A7&quot;]" supplierDependency="DCE.A294CE37-EEA5-AB0F-8C54-4B063B28DF05 DCE.38D28AC6-A0DF-F5AE-6975-61C7BE9F125C DCE.3A663F6A-3072-A79D-8F01-27480E929963" associationEnd="DCE.CB3CB893-7EE4-56A5-21CC-26ED02E78566"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.3C424869-1655-95AB-8885-E6339D7B168C" name="calculateTax" isAbstract="true" owner="DCE.F4785212-D0D7-037C-DEA5-1B561D281995" redefiningElement="DCE.AB3AA5E7-9C70-1199-EACA-ACAF49AD2F31 DCE.26AC0D33-9A24-EACA-45D1-991A07DDB31B"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.6DC465CA-5990-4518-AD1A-0E6F3C116014" type="DCE.793773E0-B25C-B355-8645-4A4FE2936099" direction="result" owner="DCE.3C424869-1655-95AB-8885-E6339D7B168C"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.EE81135F-B8B0-8F75-B7B4-747283DFB92C"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.ED205F85-3039-8B8C-7920-CCA526FED28C" name="Unnamed" owner="DCE.F4785212-D0D7-037C-DEA5-1B561D281995" sourcefile="..\AleksanderRiprovimShtator\src\ITax.java"/></UML:Element.ownedElement></UML:Interface>
+
+<UML:Association xmi.id="DCE.70D2308F-D3B7-6A4B-996A-C88E5B37122B" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051"><UML:Association.end>
+<UML:AssociationEnd xmi.id="DCE.63535418-D31B-C584-B99C-EEBAB9B71806" visibility="private" association="DCE.70D2308F-D3B7-6A4B-996A-C88E5B37122B" type="DCE.55CCE26D-D61B-76CB-E97F-B55A96727A44"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.161DB26B-0A5E-6499-2A9A-3845831849E3"/></UML:TypedElement.multiplicity></UML:AssociationEnd>
+<UML:NavigableEnd xmi.id="DCE.CB3CB893-7EE4-56A5-21CC-26ED02E78566" visibility="private" type="DCE.F4785212-D0D7-037C-DEA5-1B561D281995" association="DCE.70D2308F-D3B7-6A4B-996A-C88E5B37122B" name="mITax" supplierDependency="DCE.AEA6822E-E25D-11F1-1E79-E78A1D889C5D" clientDependency="DCE.B8FBA9A9-3D46-370F-E5F7-AA20683C8016"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.66C0AC57-F29A-21A6-A7F9-E775A780B19C"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.AB53DED0-C701-F36D-FC9A-053D8501E132"/></UML:Attribute.default></UML:NavigableEnd></UML:Association.end><UML:Element.presentation>
+</UML:Element.presentation></UML:Association>
+<UML:DataType xmi.id="DCE.33EEC969-E01D-A917-C030-768C11D7573A" name="void" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051"/>
+<UML:Implementation xmi.id="DCE.38D28AC6-A0DF-F5AE-6975-61C7BE9F125C" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051" client="DCE.D3D87932-61A4-97A5-50C5-503008FD43CC" supplier="DCE.F4785212-D0D7-037C-DEA5-1B561D281995"><UML:Element.presentation>
+</UML:Element.presentation></UML:Implementation>
+<UML:Implementation xmi.id="DCE.3A663F6A-3072-A79D-8F01-27480E929963" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051" client="DCE.24D207D4-40F7-D762-694F-B71763C4DF79" supplier="DCE.F4785212-D0D7-037C-DEA5-1B561D281995"><UML:Element.presentation>
+</UML:Element.presentation></UML:Implementation>
+<UML:DataType xmi.id="DCE.793773E0-B25C-B355-8645-4A4FE2936099" name="double" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051"/>
+<UML:Class xmi.id="DCE.69554D47-F7A7-A4B1-7783-827FC8EE16C9" name="Unnamed" owner="DCE.1A00F519-F47D-2224-5C18-78017D811051"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class></UML:Element.ownedElement><UML:Package.packageImport>
+<UML:PackageImport xmi.id="DCE.F37E98AF-6DD8-2533-8C35-440242D04C8E" importingPackage="DCE.1A00F519-F47D-2224-5C18-78017D811051"><UML:PackageImport.importedPackage>
+<UML:Profile xmi.id="DCE.008C86CC-020B-DAB0-6D11-8822B86FE266" name="Unnamed" isCloned="true" href=".\UMLProject2.etup#//*[@xmi.id=&apos;DCE.008C86CC-020B-DAB0-6D11-8822B86FE266&apos;]" isDirty="false"/></UML:PackageImport.importedPackage><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.CB919F80-3F8A-8D3F-4514-EDD28B8EC774" owner="DCE.F37E98AF-6DD8-2533-8C35-440242D04C8E" name="autoCreated">
+<UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:PackageImport></UML:Package.packageImport></UML:Project></XMI.content> </XMI>
